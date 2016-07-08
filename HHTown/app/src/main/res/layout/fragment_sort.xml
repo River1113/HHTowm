@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SortFragment">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radioGroup_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton0"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:checked="true"
+                android:text="@string/rb_text0" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text1" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text2" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text3" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text4" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text5" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text6" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text7" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                style="@style/sort_fragment_rg"
+                android:background="@drawable/radiobtn_sort_selector"
+                android:text="@string/rb_text8" />
+        </RadioGroup>
+    </ScrollView>
+
+    <GridView
+        android:id="@+id/gridView_sort"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2" />
+
+</LinearLayout>

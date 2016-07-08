@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textSelectColor">#3ABE58</color>
+    <color name="textUnSelectColor">#ABABAB</color>
+    <color name="titleTextColor">#ffffff</color>
+
+    <color name="gray">#f3f3f3</color>
+    <color name="white">#fff</color>
+    <color name="darkGreen">#3f8a3e</color>
+    <color name="lightGreen">#3ABE58</color>
+    <color name="darkGray">#5c5c5c</color>
+    <color name="item_sort_bt">#a3a3a3</color>
+</resources>

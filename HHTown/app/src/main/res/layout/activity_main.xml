@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGreen">
+
+        <ImageView
+            android:id="@+id/search_image_main"
+            style="@style/activity_main_title"
+            android:background="@drawable/home_background_selector"
+            android:src="@mipmap/top_search_off" />
+
+        <ImageView
+            android:id="@+id/image_title_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/home_hh_logo" />
+
+        <TextView
+            android:id="@+id/text_title_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/image_more_main"
+            style="@style/activity_main_title"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/home_background_selector"
+            android:src="@mipmap/menu_more_off" />
+    </RelativeLayout>
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tabLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:tl_textSelectColor="@color/textSelectColor"
+        app:tl_textUnselectColor="@color/textUnSelectColor" />
+
+    <FrameLayout
+        android:id="@+id/flayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tabLayout_main"
+        android:layout_below="@id/layout_top" />
+
+    <ImageView
+        android:id="@+id/image_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.8"
+        android:src="@mipmap/ic_shopping_cart" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout_middleCategory"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_middleCategory_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textColor="@color/darkGreen"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/title_middleCategory_item"
+            android:id="@+id/desc_middleCategory_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desc"
+            android:textSize="13sp"
+            android:textColor="@color/darkGray"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/icon_middleCategory_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/layout_middleCategory"
+        android:src="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>

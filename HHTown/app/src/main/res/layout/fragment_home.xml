@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <ScrollView
+        android:id="@+id/scrollView_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- bannerList-->
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager_bannerList_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp" />
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/indicator_bannerList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/viewPager_bannerList_home" />
+            </RelativeLayout>
+
+            <!--categoryList-->
+            <com.myapplication.viewutils.MyGridView
+                android:id="@+id/gridView_categoryList_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4" />
+
+            <!--间隔-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/gray" />
+
+            <!--middleCategoryList-->
+            <GridView
+                android:id="@+id/gridView_middleCategoryList_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2"
+                android:verticalSpacing="1dp" />
+
+            <!--间隔-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/gray" />
+
+
+            <!--strategies_at_index-->
+            <com.myapplication.viewutils.MyListView
+                android:id="@+id/listView_strategies_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@null"
+                android:paddingTop="8dp" />
+
+            <!--查看全部专题-->
+            <TextView
+                android:id="@+id/text_topic_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="查看全部专题"
+                android:textColor="@color/lightGreen" />
+
+            <!--间隔-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/gray" />
+
+            <!--shareList-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_shareList_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="afterDescendants" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

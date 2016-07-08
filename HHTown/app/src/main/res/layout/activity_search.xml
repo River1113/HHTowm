@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGreen">
+
+        <ImageView
+            android:id="@+id/imageView_back"
+            style="@style/activity_main_title"
+            android:background="@drawable/home_background_selector"
+            android:src="@mipmap/global_top_back_off" />
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@+id/textView_search"
+            android:layout_toRightOf="@id/imageView_back"
+            android:background="@drawable/bg_searchview"
+            android:iconifiedByDefault="false"
+            android:queryHint="买优质农品 上禾禾小镇" />
+
+        <TextView
+            android:id="@+id/textView_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="搜索"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridView_hot"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_margin="15dp"
+        android:text="热门搜索" />
+
+    <com.myapplication.viewutils.MyGridView
+        android:id="@+id/gridView_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_gridview"
+        android:horizontalSpacing="1dp"
+        android:numColumns="4"
+        android:padding="1dp"
+        android:scrollbars="none"
+        android:verticalSpacing="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridView_hot"
+        android:layout_alignRight="@+id/gridView_hot"
+        android:layout_below="@+id/gridView_hot"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="历史搜索" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:background="#000" />
+
+        <ListView
+            android:id="@+id/listView_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="24dp"></ListView>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listView_history"
+            android:layout_centerHorizontal="true"
+            android:background="@color/gray"
+            android:text="清空历史记录" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">禾禾小镇</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="update_time">10:00更新</string>
+    <string name="date">07月05日</string>
+
+    <!-- sort页列表文字设置 -->
+    <string name="rb_text0">进口优选</string>
+    <string name="rb_text1">新鲜水果</string>
+    <string name="rb_text2">风味特产</string>
+    <string name="rb_text3">坚果零食</string>
+    <string name="rb_text4">粮油副食</string>
+    <string name="rb_text5">肉蛋海鲜</string>
+    <string name="rb_text6">茗茶茗饮</string>
+    <string name="rb_text7">美酒佳酿</string>
+    <string name="rb_text8">滋补养生</string>
+
+    <!--发现界面的-->
+    <string-array name="titles">
+        <item>功用</item>
+        <item>口感</item>
+        <item>节日</item>
+        <item>场合</item>
+        <item>人群</item>
+    </string-array>
+
+    <!--功用-->
+    <string-array name="imageUrls_1">
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d0a827d9ce.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a92750ab10.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a92823fea3.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a9293878f2.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a929f89bca.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a92aab5345.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a92be1a58d.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a92cbedc37.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/11/566a92d5d1e62.png</item>
+    </string-array>
+    <string-array name="imageNames_1">
+        <item>补血养颜</item>
+        <item>润喉润肺</item>
+        <item>助眠安神</item>
+        <item>去热清火</item>
+        <item>乌发益肾</item>
+        <item>护肝明目</item>
+        <item>滋养脾胃</item>
+        <item>预防感冒</item>
+        <item>降三高</item>
+    </string-array>
+
+    <!--口感-->
+    <string-array name="imageUrls_2">
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e38eff1c14.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e3d2256890.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e6882419e5.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e7220c8014.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e38d2e9916.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e38dfd7771.png</item>
+    </string-array>
+    <string-array name="imageNames_2">
+        <item>酸酸</item>
+        <item>甜甜</item>
+        <item>咸咸</item>
+        <item>鲜鲜</item>
+        <item>苦苦</item>
+        <item>麻辣</item>
+    </string-array>
+
+    <!--节日-->
+    <string-array name="imageUrls_3">
+        <item>http://www.hehe168.com/public/upload/images/201512/10/5669505006cee.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/5669232b5e02a.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/56692fe94ec14.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/566936680dda6.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/566940763bda0.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/56693cf466946.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/56694c271fdca.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/10/56694d33966f1.png</item>
+    </string-array>
+    <string-array name="imageNames_3">
+        <item>圣诞节</item>
+        <item>新年</item>
+        <item>父亲节</item>
+        <item>母亲节</item>
+        <item>生日</item>
+        <item>七夕节</item>
+        <item>中秋节</item>
+        <item>端午节</item>
+    </string-array>
+
+    <!--场合-->
+    <string-array name="imageUrls_4">
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d2c044f833.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d2c462f84a.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d1fe7d1c3d.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d2c17d99cc.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d20049cb77.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d2c2753e58.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d2c36af54a.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d202e3d2ea.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/18/5673d9f778f30.png</item>
+    </string-array>
+    <string-array name="imageNames_4">
+        <item>早餐</item>
+        <item>烘培</item>
+        <item>办公室</item>
+        <item>Party</item>
+        <item>户外</item>
+        <item>结婚</item>
+        <item>感谢</item>
+        <item>火锅</item>
+        <item>夜宵</item>
+    </string-array>
+
+    <!--人群-->
+    <string-array name="imageUrls_5">
+        <item>http://www.hehe168.com/public/upload/images/201512/10/566939a5926a5.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d369764e33.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d3c4064401.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/14/566e25eb86735.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d36b180d79.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d3f403f309.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/17/5672294222c06.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/18/5673ceea2067c.png</item>
+        <item>http://www.hehe168.com/public/upload/images/201512/13/566d36852c78a.png</item>
+    </string-array>
+    <string-array name="imageNames_5">
+        <item>自己</item>
+        <item>她他</item>
+        <item>爸妈</item>
+        <item>宝宝</item>
+        <item>熊孩子</item>
+        <item>孕妈</item>
+        <item>BOSS</item>
+        <item>丈母娘</item>
+        <item>闺蜜们</item>
+    </string-array>
+
+</resources>

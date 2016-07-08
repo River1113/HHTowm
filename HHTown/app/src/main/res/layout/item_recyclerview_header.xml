@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray">
+
+        <ImageView
+            android:id="@+id/image_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:duplicateParentState="true"
+            android:src="@mipmap/waterfall_clock" />
+
+        <TextView
+            android:id="@+id/text_updateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/image_clock"
+            android:duplicateParentState="true"
+            android:text="updateTime"
+            android:textColor="@color/darkGreen" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:duplicateParentState="true"
+            android:text="date"
+            android:textColor="#c3c3c3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/text_date"
+            android:duplicateParentState="true"
+            android:text="|" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon_goods_shareListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:duplicateParentState="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/text_goodsName_shareListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:duplicateParentState="true"
+            android:text="name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/rmb_shareListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:duplicateParentState="true"
+                android:text="￥"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/text_price_shareListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/rmb_shareListItem"
+                android:text="price"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/image_baoyou_shareListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/text_price_shareListItem"
+                android:duplicateParentState="true"
+                android:src="@mipmap/ic_item_baoyou" />
+
+
+            <TextView
+                android:id="@+id/text_like_shareListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                android:duplicateParentState="true"
+                android:text="like" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/text_like_shareListItem"
+                android:duplicateParentState="true"
+                android:src="@mipmap/heart_off" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
