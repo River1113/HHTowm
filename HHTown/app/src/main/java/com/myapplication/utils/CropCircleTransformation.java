@@ -1,7 +1,7 @@
 package com.myapplication.utils;
 
 /**
- * Copyright (C) 2015 Wasabeef 不要删除,不礼貌
+ * Copyright (C) 2015 Wasabeef
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
